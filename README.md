@@ -4,16 +4,16 @@
 
 ---
 
-## 🚀 What I Do
+## 🚀 What I Build
 
-I build **production-grade backend systems** that:
+I design and build **production-grade backend systems** that:
 
 - process signals  
 - make decisions  
 - control risk  
-- scale across multiple clients  
+- operate across multiple clients  
 
-👉 Focus: **Automation + Decision Logic + System Architecture**
+👉 Focus: **Automation Systems + Decision Engines + Scalable Architectures**
 
 ---
 
@@ -27,78 +27,131 @@ I build **production-grade backend systems** that:
 
 ---
 
-## 🧠 System Thinking
+## 🧠 System Architecture Mindset
 
-I don’t just build features —  
-I design **controlled systems**.
+I build systems with:
 
-Core principles:
-
-- Deterministic signal processing  
-- Clear separation of concerns  
-- Risk-first architecture  
-- Full auditability (deals, risk, KPIs)  
-- Multi-client scalability  
+- deterministic logic (no black box behavior)  
+- clear separation (signal / execution / risk / tracking)  
+- full traceability (signals → trades → KPIs)  
+- real-time control over risk  
+- scalability across accounts and strategies  
 
 ---
 
-## 🔥 Featured Project
+## 🔥 Flagship System
 
 ### 🧠 Signal Agent API
 
-A full **decision & execution backend** for automated trading systems.
-
-#### Key Capabilities
-
-- Signal ingestion via API  
-- Score-based filtering engine  
-- Execution engine with dynamic risk scaling  
-- KPI-based auto gate (drawdown, winrate, loss streak)  
-- Multi-account distribution system  
-- Full tracking (signals → execution → deals → KPIs)  
-
-👉  
-https://github.com/clausnordhausen-stack/signal-agent-api
+A **complete decision & execution backend** for automated trading systems.
 
 ---
 
-## 📊 System Architecture (Simplified)
+## 🏗️ Architecture Overview
 
-```text
-TradingView Signal
-        ↓
-Signal Agent API
-        ↓
-Filtering Engine (Score / Gate)
-        ↓
-Execution Engine (Risk Logic)
-        ↓
-MT5 Clients (Multiple Accounts)
-        ↓
-Deals + KPI Tracking
+```mermaid
+flowchart TD
+
+A[TradingView Signal] --> B[Signal Agent API]
+
+B --> C[Signal Processing]
+C --> D[Score Filter]
+C --> E[Gate System]
+
+D --> F[Execution Engine]
+E --> F
+
+F --> G[Risk Engine]
+
+G --> H[MT5 Clients]
+
+H --> I[Deals]
+I --> J[KPI Engine]
+
+J --> K[Auto Gate Feedback]
+K --> E
 ```
 
 ---
 
-## 📈 Additional Projects
+## ⚙️ Core Modules
 
-### Trading Dashboard API
-Backend for monitoring and controlling trading systems
+### Signal Engine
+- API ingestion
+- normalization (BUY/SELL logic)
+- payload handling
 
-👉 https://github.com/clausnordhausen-stack/trading-dashboard-api
+### Filtering Layer
+- score-based validation  
+- gate-based approval (GREEN / YELLOW / RED)
+
+### Execution Engine
+- dynamic risk scaling  
+- priority logic  
+- trade approval layer  
+
+### Risk Engine
+- daily loss cap  
+- R-multiple tracking  
+- max trades per day  
+
+### KPI Engine
+- drawdown calculation  
+- winrate tracking  
+- loss streak detection  
+
+### Auto Gate System
+- blocks or reduces risk based on:
+  - drawdown  
+  - winrate  
+  - loss streak  
 
 ---
 
+## 📊 What Makes This System Different
+
+This is not a simple bot.
+
+It is a **controlled decision system**:
+
+- Every signal is evaluated  
+- Every trade is tracked  
+- Every risk is calculated  
+- Every decision is explainable  
+
+👉 **No uncontrolled execution**
+
+---
+
+## 📈 Business Perspective
+
+The system is designed for:
+
+- multi-account deployment  
+- risk-controlled scaling  
+- automated trading operations  
+- future AI-agent integration  
+
+---
+
+## 🔗 Projects
+
+### Signal Agent API
+https://github.com/clausnordhausen-stack/signal-agent-api
+
+### Trading Dashboard API
+https://github.com/clausnordhausen-stack/trading-dashboard-api
+
 ### Trading Systems Dashboard (Flutter)
-Frontend for system monitoring & control
+Frontend for monitoring & control
 
 ---
 
 ## 🎯 Current Focus
 
-- Advanced automation systems  
-- AI-driven decision logic  
-- Scalable backend architectures  
+- AI-driven decision systems  
+- advanced automation architectures  
+- scalable backend infrastructure  
 
 ---
 
